@@ -1,0 +1,6 @@
+(ql:quickload :cl-wnbrowser-bluemix :verbose nil)
+(in-package :cl-wnbrowser)
+(setf *ownpt-api-uri* "http://localhost:3000")
+(setf drakma:*header-stream* *standard-output*)
+(setq hunchentoot:*show-lisp-errors-p* t)
+(start-server 8040)

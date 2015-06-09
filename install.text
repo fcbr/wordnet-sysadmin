@@ -1,0 +1,5 @@
+- solr 5.1.0
+- forever (for node)
+- node, node-legacy
+- openjdk-7-jdk
+- sbcl

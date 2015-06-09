@@ -1,0 +1,1 @@
+SBCL upstart doesn't handle 'stop' correctly.
