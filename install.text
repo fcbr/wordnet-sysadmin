@@ -1,5 +1,9 @@
-- solr 5.1.0
+Debian packages:
 - forever (for node)
 - node, node-legacy
 - openjdk-7-jdk
+
+Manual packages:
+- solr
 - sbcl
+- quicklisp
