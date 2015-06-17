@@ -1,0 +1,13 @@
+To compile Freeling from SVN you can pretty much follow the
+instructions on the website.  For Ubuntu 14.04 LTS these are the
+packages needed:
+
+apt-get install build-essential automake autoconf libtool subversion\
+        libboost-regex-dev libicu-dev libboost-system-dev\
+        libboost-program-options-dev libboost-thread-dev
+  
+HOWEVER, I am still getting the following error while trying to run.
+The /usr/local/lib is included in ld.conf.
+
+$ analyzer
+analyzer: error while loading shared libraries: libfreeling-4.0-devel.so: cannot open shared object file: No such file or directory
